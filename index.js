@@ -16,7 +16,7 @@ const razorpayRoute = require('./routes/razorpay');
 app.use(cors({
   origin: [
     "http://localhost:5173",                  // for local development
-    "https://farmers-frontend.vercel.app"    // deployed frontend
+    "https://farm2retail.vercel.app"    // deployed frontend
   ],
   credentials: true
 }));
